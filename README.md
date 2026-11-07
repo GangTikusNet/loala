@@ -34,3 +34,10 @@ configure by hand, and the same folder layout on both operating systems.
 | Tools | phpMyAdmin, Adminer, Mongo Express, Mailpit, PocketBase, ffmpeg, Git |
 
 Download the installer from [Releases](../../releases). Windows 10 or later, 64-bit.
+
+## Support
+
+Loala is free to use. If it saves you time, you can support its development
+with a donation on Saweria.
+
+<a href="https://saweria.co/gangtikusnet"><img src="https://img.shields.io/badge/Saweria-Support%20Loala-FAAE2B?style=for-the-badge" alt="Support Loala on Saweria"></a>
