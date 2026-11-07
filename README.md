@@ -3,6 +3,7 @@
 # Loala
 
 <p>
+  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/GangTikusNet/loala?label=release" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/Windows-x64-0078D4" alt="Windows x64">
   <img src="https://img.shields.io/badge/macOS-in%20progress-555" alt="macOS in progress">
 </p>
