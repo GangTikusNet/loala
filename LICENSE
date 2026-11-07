@@ -1,63 +1,119 @@
-Loala End User License Agreement
+LOALA END USER LICENSE AGREEMENT
 
 Copyright (c) 2026 Anper. All rights reserved.
 
-By installing or using Loala, you agree to the terms below.
+This End User License Agreement ("Agreement") is between you and Anper
+("Author") and governs your use of Loala. By downloading, installing, or
+using Loala, you accept this Agreement. If you do not accept it, do not
+install or use Loala.
 
-1. Free use
+1. DEFINITIONS
 
-   Loala is free of charge. You may download, install, and use it on any
-   computer you own or control, for personal, educational, or commercial
-   work, including building and running projects for your clients.
+   "Loala" means the Loala application, its installer and uninstaller, and
+   all related files, updates, documentation, interface designs, icons,
+   names, and logos provided by the Author.
 
-2. Ownership
+   "Third-Party Components" means software made by others that Loala
+   includes or downloads, such as Apache, Nginx, MySQL, PHP, Node.js,
+   Python, and Git.
 
-   Loala is proprietary software and is licensed, not sold. The author
-   keeps all rights to Loala, including its code, interface, icons, name,
-   and logo.
+2. LICENSE GRANT
 
-3. Restrictions
+   The Author grants you a free, non-exclusive, non-transferable, revocable
+   license to install and use Loala on computers you own or control, for
+   personal, educational, or commercial purposes, including work for your
+   clients. No fee is charged for this license.
 
-   You may not, in whole or in part:
+3. OWNERSHIP
 
-   - reverse engineer, decompile, disassemble, or otherwise try to obtain
-     the source code of Loala;
-   - modify Loala, or reuse its code, interface, icons, or other assets in
-     another product;
-   - create derivative works, forks, or rebranded versions of Loala;
-   - sell, rent, sublicense, or bundle Loala with another product;
-   - redistribute Loala installers or files from anywhere other than the
-     official release page, without written permission from the author;
-   - remove or change any copyright notice in Loala.
+   Loala is licensed, not sold. The Author owns all rights, title, and
+   interest in Loala, including all copyrights and other intellectual
+   property rights. All rights not expressly granted in this Agreement are
+   reserved by the Author.
 
-4. Your projects
+4. RESTRICTIONS
 
-   Projects, databases, and files you create with Loala belong to you.
-   This license places no restriction on them.
+   Except where applicable law expressly allows it despite this
+   restriction, you must not, in whole or in part:
 
-5. Third-party software
+   a. reverse engineer, decompile, disassemble, decrypt, or otherwise
+      attempt to derive the source code, structure, or algorithms of
+      Loala;
+   b. modify, adapt, translate, or create derivative works of Loala,
+      including forks, clones, and rebranded versions;
+   c. copy or reuse any part of Loala, including its code, interface,
+      icons, images, text, names, or logos, in any other product or
+      service;
+   d. sell, rent, lease, lend, sublicense, or otherwise commercially
+      distribute Loala, or bundle it with another product;
+   e. publish, mirror, or redistribute Loala installers or files anywhere
+      other than the official release page, without the Author's prior
+      written permission;
+   f. remove, alter, or hide any copyright notice, trademark, or license
+      text in Loala;
+   g. use the Loala name or logo in a way that suggests endorsement by, or
+      affiliation with, the Author.
 
-   Loala bundles and downloads third-party software (such as Apache,
-   Nginx, MySQL, PHP, Node.js, Python, and Git). Each component remains
-   under its own license, which is included with that component inside
-   the installation folder. These terms do not apply to those components.
+5. YOUR CONTENT
 
-6. Future versions
+   Projects, databases, and other files you create or manage with Loala
+   belong to you. This Agreement gives the Author no rights to them.
 
-   The current release is free. The author may offer future versions under
-   different terms. A version you already have keeps the terms it was
-   released with.
+6. THIRD-PARTY COMPONENTS
 
-7. No warranty
+   Third-Party Components are licensed by their own authors under their own
+   licenses, which are included with each component in the installation
+   folder. Those licenses, not this Agreement, govern your use of the
+   Third-Party Components.
 
-   Loala is provided "as is", without warranty of any kind. The author is
-   not liable for any loss of data, profit, or other damage arising from
-   the use of Loala. Keep backups of your projects and databases.
+7. DONATIONS
 
-8. Termination
+   Donations to the Author are voluntary. A donation does not buy a license,
+   support, or any other right, and does not change this Agreement.
 
-   This license ends automatically if you break any of its terms. You must
-   then stop using Loala and delete all copies.
+8. FUTURE VERSIONS
 
-For permission requests, open an issue on the official repository:
+   The Author may release future versions of Loala under different terms.
+   Each version you already have remains under the terms it was released
+   with.
+
+9. NO WARRANTY
+
+   LOALA IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY
+   KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. THE AUTHOR DOES
+   NOT WARRANT THAT LOALA WILL BE ERROR-FREE OR UNINTERRUPTED. YOU ARE
+   RESPONSIBLE FOR BACKING UP YOUR PROJECTS AND DATABASES.
+
+10. LIMITATION OF LIABILITY
+
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE AUTHOR IS NOT LIABLE FOR ANY
+   INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR
+   FOR ANY LOSS OF DATA, PROFIT, REVENUE, OR BUSINESS, ARISING FROM THE USE
+   OF OR INABILITY TO USE LOALA, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+   DAMAGES. BECAUSE LOALA IS PROVIDED FREE OF CHARGE, THE AUTHOR'S TOTAL
+   LIABILITY UNDER THIS AGREEMENT IS ZERO, TO THE EXTENT PERMITTED BY LAW.
+
+11. TERMINATION
+
+   This Agreement ends automatically if you breach any of its terms. On
+   termination, you must stop using Loala and delete all copies. Sections
+   3, 4, 9, 10, and 12 survive termination.
+
+12. GENERAL
+
+   a. Governing law. This Agreement is governed by the laws of the Republic
+      of Indonesia, without regard to its conflict-of-law rules.
+   b. Severability. If any provision is held unenforceable, it will be
+      enforced to the maximum extent permissible, and the remaining
+      provisions stay in full effect.
+   c. No waiver. Failure to enforce any provision is not a waiver of it.
+   d. Entire agreement. This Agreement is the entire agreement between you
+      and the Author regarding Loala and replaces any earlier terms.
+   e. Changes. The Author may update this Agreement for future versions.
+      The current text is published at the official repository.
+
+CONTACT
+
+For permission requests or questions, open an issue at:
 https://github.com/GangTikusNet/loala
