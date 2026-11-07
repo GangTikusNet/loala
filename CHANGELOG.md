@@ -1,11 +1,13 @@
 # Changelog
 
-## 1.0.2
-- phpMyAdmin is always listed in the MySQL menu; shown as "not installed" when absent.
+## 1.5.2 - 2026-11-07
 
-## 1.0.1
-- Packages that are not installed (ffmpeg, Go) no longer appear in the menu.
-- Built-in Python and Node.js can no longer be uninstalled.
+First public release.
 
-## 1.0.0
-- First release.
+- Apache and Nginx with automatic HTTPS for every site at https://<name>.localhost.
+- MySQL, PostgreSQL, MongoDB, Redis, and Memcached, with one-click backups and scheduled automatic backups.
+- PHP, Node.js, Python, and Go, with several versions side by side.
+- Quick app: create WordPress, Laravel, and other projects, or clone from a Git URL.
+- Quick add: install more versions and tools from the menu.
+- Share any site on a public URL through Cloudflare Tunnel.
+- Built-in terminal, editor, cron jobs, Procfile runner, and Mailpit for testing email.

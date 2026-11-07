@@ -33,7 +33,26 @@ configure by hand, and the same folder layout on both operating systems.
 | Languages | PHP, Node.js, Python, Go |
 | Tools | phpMyAdmin, Adminer, Mongo Express, Mailpit, PocketBase, ffmpeg, Git |
 
+## Install
+
 Download the installer from [Releases](../../releases). Windows 10 or later, 64-bit.
+
+Loala is not code-signed yet, so Windows SmartScreen may warn you on first run.
+Choose **More info**, then **Run anyway**. To check the download, compare its
+SHA256 with the value shown on the release page.
+
+## Updating
+
+Download the new installer and run it. There is no separate updater.
+
+- The installer finds your existing Loala and offers to update it in place.
+- If Loala is running, close it from the tray icon (Exit) when asked.
+- Your projects (`www`), databases (`data`), and settings (`usr`) are kept.
+  Settings are also backed up to `backup\usr-before-<version>` first.
+- Only `Loala.exe` and the bundled packages in `bin` are replaced.
+
+Reinstalling the same version works the same way and is safe.
+To start fresh instead, choose a different folder in the installer.
 
 ## Support
 
