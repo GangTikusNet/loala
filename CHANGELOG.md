@@ -4,7 +4,7 @@
 
 First public release.
 
-- Apache and Nginx with automatic HTTPS for every site at https://<name>.localhost.
+- Apache and Nginx with automatic HTTPS for every site at `https://<name>.localhost`.
 - MySQL, PostgreSQL, MongoDB, Redis, and Memcached, with one-click backups and scheduled automatic backups.
 - PHP, Node.js, Python, and Go, with several versions side by side.
 - Quick app: create WordPress, Laravel, and other projects, or clone from a Git URL.
