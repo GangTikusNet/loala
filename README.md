@@ -27,7 +27,7 @@ configure by hand, and the same folder layout on both operating systems.
 
 ## Included
 
-| | |
+| Category | Packages |
 |---|---|
 | Web servers | Apache, Nginx |
 | Databases | MySQL, PostgreSQL, MongoDB, Redis, Memcached |
