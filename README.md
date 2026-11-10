@@ -20,7 +20,7 @@ configure by hand, and the same folder layout on both operating systems.
 
 - **Share** – publish any site on a public URL through Cloudflare Tunnel, random address or your own domain.
 - **Sites** – every folder in `www` is served at `https://<name>.localhost`, certificate included.
-- **Projects** – WordPress, Laravel, Symfony, CodeIgniter and Node.js are detected automatically.
+- **Projects** – WordPress, Laravel, Symfony, CodeIgniter and Node.js are detected automatically; Node.js apps run, build and start from the Sites list.
 - **Versions** – several PHP, MySQL, Node.js and Python versions side by side, switched from the menu.
 - **Tools** – built-in terminal, editor, listening-ports view, Procfile runner and cron jobs.
 - **Portable** – move the folder or copy it to another machine; everything keeps working.
