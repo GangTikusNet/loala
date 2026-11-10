@@ -18,12 +18,11 @@ configure by hand, and the same folder layout on both operating systems.
 
 ## Features
 
-- **Share** – publish any site on a public URL through Cloudflare Tunnel, random address or your own domain.
 - **Sites** – every folder in `www` is served at `https://<name>.localhost`, certificate included.
 - **Projects** – WordPress, Laravel, Symfony, CodeIgniter and Node.js are detected automatically; Node.js apps run, build and start from the Sites list.
-- **Quick app** – create WordPress, Laravel, Symfony, Next.js, Nuxt, Vite and Express projects in one click, or clone from a Git URL.
-- **Quick add** – install more versions and tools from the menu.
-- **Versions** – several PHP, MySQL, Node.js and Python versions side by side, switched from the menu.
+- **Quick app** – create a WordPress, Laravel, Symfony, Next.js, Nuxt, Vite or Express project in one click, or clone one from a Git URL.
+- **Versions** – several PHP, MySQL, Node.js and Python versions side by side; install more with Quick add and switch from the menu.
+- **Share** – publish any site on a public URL through Cloudflare Tunnel, random address or your own domain.
 - **Tools** – built-in terminal, editor, listening-ports view, Procfile runner and cron jobs.
 - **Portable** – move the folder or copy it to another machine; everything keeps working.
 
