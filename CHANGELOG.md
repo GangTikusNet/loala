@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.11.0 - 2026-11-11
+
+### Added
+- Update page: see what's new in each release, update with one click, and optionally check and install updates automatically. Releases come from GitHub, and each installer is checked against its SHA256 before it runs.
+
+### Fixed
+- Server-side requests from a Next.js dev server to `https://<name>.localhost` sites no longer fail with a certificate error.
+- Firefox accepts the local certificate for `https://localhost`, used by Next.js and Nuxt dev servers.
+- Installed apps list: Loala shows as 64-bit, its size counts only Loala itself (not your projects and databases), and the website and description are filled in.
+- Uninstalling also removes Loala's browser cache.
+
 ## 1.10.14 - 2026-11-10
 
 ### Added

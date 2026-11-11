@@ -23,6 +23,7 @@ configure by hand, and the same folder layout on both operating systems.
 - **Versions** – several PHP, MySQL, Node.js and Python versions side by side; install more with Quick add and switch from the menu.
 - **Share** – publish any site on a public URL through Cloudflare Tunnel, random address or your own domain.
 - **Tools** – built-in terminal, editor, listening-ports view, Procfile runner and cron jobs.
+- **Updates** – see what's new and update from inside Loala, with each installer checked against its SHA256.
 - **Portable** – move the folder or copy it to another machine; everything keeps working.
 
 ## Included
@@ -44,7 +45,13 @@ SHA256 with the value shown on the release page.
 
 ## Updating
 
-Download the new installer and run it. There is no separate updater.
+From 1.11.0, Loala checks GitHub for new releases. Open **Update** (the download
+icon at the top of the window) to see what's new and choose **Update now**.
+Loala downloads the installer, checks its SHA256, and restarts after updating.
+Automatic updates can be turned on in the same window.
+
+You can also download the new installer and run it yourself (needed once to get
+from 1.10 or earlier to 1.11.0).
 
 - The installer finds your existing Loala and offers to update it in place.
 - If Loala is running, close it from the tray icon (Exit) when asked.
