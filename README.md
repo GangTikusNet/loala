@@ -18,7 +18,7 @@ configure by hand, and the same folder layout on both operating systems.
 
 ## Features
 
-- **Sites** – every folder in `www` is served at `https://<name>.localhost`, certificate included.
+- **Sites** – every folder in `www` is served at `https://<name>.localhost`, certificate included. A running Node.js or Python app is shown on its site's domain.
 - **Projects** – create WordPress, Laravel, Symfony, Next.js, Nuxt, Vite, Express, FastAPI, Flask or Django in one click with Quick app, or clone from a Git URL. Existing projects, including CodeIgniter, are detected automatically; Node.js and Python apps run from the Sites list.
 - **Versions** – several PHP, MySQL, Node.js and Python versions side by side; install more with Quick add and switch from the menu.
 - **Share** – publish any site on a public URL through Cloudflare Tunnel, random address or your own domain.
