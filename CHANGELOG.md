@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.12.6 - 2026-11-18
+
+### Added
+- Python projects run from the Sites list: FastAPI, Flask, and Django are detected automatically, with Install (creates the project's `.venv` and installs its packages), Dev, and Start, each in the background with its own terminal, restart, port, and stop controls.
+- While a Python app is running, its site domain (`https://<name>.localhost`) shows the app.
+- Python apps trust the local certificate, so `requests` and `httpx` can call `https://<name>.localhost` sites.
+- Quick app templates for FastAPI, Flask, and Django.
+
+### Changed
+- Updating shows a progress window until Loala opens again.
+- A new release is announced once with a small card, in addition to the dot on the Update icon.
+
+### Fixed
+- Reloading Apache no longer refuses requests to other sites: Apache re-reads its configuration without stopping, so a request arriving at that moment waits about a second instead of failing. A configuration error is reported and the running Apache keeps serving.
+- Mongo Express is no longer reported as failed when it takes longer to start the first time.
+- Loala removes a leftover browser data folder (about 80 MB) left behind by older versions.
+- The downloaded installer no longer stays in the `tmp` folder after updating.
+
 ## 1.11.0 - 2026-11-11
 
 ### Added
