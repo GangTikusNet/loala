@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.12.6 - 2026-11-18
+## 1.12.7 - 2026-11-19
 
 ### Added
 - Python projects run from the Sites list: FastAPI, Flask, and Django are detected automatically, with Install (creates the project's `.venv` and installs its packages), Dev, and Start, each in the background with its own terminal, restart, port, and stop controls.
@@ -11,12 +11,35 @@
 ### Changed
 - Updating shows a progress window until Loala opens again.
 - A new release is announced once with a small card, in addition to the dot on the Update icon.
+- Node.js and Python apps listen only on this computer (127.0.0.1): they are not reachable from the network, and Windows Firewall no longer asks about them.
+- Custom hostname formats such as `{name}.dev` get trusted certificates. When a new suffix is used, the local certificate authority is recreated and trusted again.
 
 ### Fixed
+- Apps served at `https://<name>.localhost` now know they are behind HTTPS, so redirects, absolute URLs, and secure cookies are correct. Django forms and the admin login no longer fail the CSRF check, and the Flask template handles the proxy.
+- Stop, Restart, Stop All, and Exit stop the whole app, including processes started by npm or the uvicorn reloader, so its port is freed.
+- Dev and Start say which program is using the port instead of failing silently, and Restart waits for the port to be free.
+- Node.js and Python apps left running after Loala closed unexpectedly are stopped the next time Loala opens.
+- A site's domain switches to the app once the app is listening, instead of showing an error while it starts.
+- Python Install: projects with only `pyproject.toml` install their dependencies, an interrupted Install is no longer treated as installed, and more app layouts are found (`src/` packages, `__init__.py` factories, `fastapi.FastAPI()`).
+- Starting a service while others are running uses its latest port, version, and password.
+- Settings are saved safely: an interrupted save no longer empties `loala.ini`, changes made at the same time are kept, unknown entries are preserved, and a file saved with a BOM is read correctly.
+- MySQL stops cleanly even when its root password was changed outside Loala. Data from an older layout is only moved to the MySQL version that created it, and an interrupted first setup no longer leaves a broken data folder.
+- Automatic backups only back up the database server Loala runs, and failed empty backups no longer push out good ones.
+- Reloading reports a port that is already in use. Apache and Nginx reload independently, and a PHP problem in Nginx is reported.
+- Long requests to Node.js and Python apps no longer time out after 60 seconds, and uploads through Apache are allowed up to 2 GB, as in Nginx.
+- In Nginx, `.php` files inside Node.js and Python projects are no longer run by PHP, and WildcardDNS names are matched regardless of letter case.
+- A hosts file saved in another encoding is updated without changing other entries, and it is written in one step.
+- Updating replaces the Loala you update from, waits longer for it to close and asks instead of stopping silently, stops leftover servers before replacing files, and explains what to do when antivirus briefly locks a file.
+- The settings backup made when updating is no longer overwritten by a reinstall and no longer includes the npm and Go package folders.
+- Update checks report when GitHub limits requests, keep a known update after a failed check, and remove an interrupted download.
+- Uninstalling stops servers still running from the Loala folder.
+- Updating Node.js with Quick add keeps the current version if the new one can't be put in place.
+- Quick app keeps one cached download per address, refreshes the latest WordPress after seven days, and keeps the cached copy when a download fails.
 - Reloading Apache no longer refuses requests to other sites: Apache re-reads its configuration without stopping, so a request arriving at that moment waits about a second instead of failing. A configuration error is reported and the running Apache keeps serving.
 - Mongo Express is no longer reported as failed when it takes longer to start the first time.
 - Loala removes a leftover browser data folder (about 80 MB) left behind by older versions.
 - The downloaded installer no longer stays in the `tmp` folder after updating.
+- Missing Indonesian translations.
 
 ## 1.11.0 - 2026-11-11
 
