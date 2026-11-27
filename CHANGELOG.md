@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.14.2 - 2026-11-27
+## Unreleased
 
 ### Added
 - Each site in the Sites list has a Delete button, which opens the same confirmation as Tools > Delete project.
