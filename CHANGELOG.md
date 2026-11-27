@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.14.2 - 2026-11-27
+
+### Added
+- Each site in the Sites list has a Delete button, which opens the same confirmation as Tools > Delete project.
+
+### Changed
+- Deleting a project can also drop its databases in MySQL, PostgreSQL, and MongoDB: those set in `.env` or `wp-config.php`, and those named after the project. They are selected by default and backed up to `backup/<engine>/` before they are dropped.
+- If a database server is stopped, the delete dialog says which databases can't be checked, instead of leaving them behind without notice.
+- Quick app lets you choose the database engine (MySQL, PostgreSQL, or MongoDB, among those running) and name the database. Laravel and Symfony projects can use MySQL or PostgreSQL, and WordPress uses MySQL.
+- Symfony projects created with a database get a `DATABASE_URL` in `.env`, so Doctrine uses it once installed.
+- Clone copies the source project's database in MySQL, PostgreSQL, or MongoDB, found from its `.env`, and the new database name can be changed.
+
+### Fixed
+- Laravel projects created with a database no longer fail with "Table 'sessions' doesn't exist": the tables are created in the new database.
+- The WordPress Quick app no longer fails with "The download is not a valid archive": it downloads the official `.zip` archive. Existing configurations using the old `.tar.gz` link are updated.
+- The Nuxt Quick app creates the project without stopping to ask questions (minimal template, npm, no Git repository), like Next.js.
+
 ## 1.12.7 - 2026-11-19
 
 ### Added
